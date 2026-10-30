@@ -67,11 +67,14 @@ The video description has a link to the bird and pipe pictures he uses. **Make y
 
 Unity projects make a lot of junk files that should **not** go to GitHub. The `Library` folder alone can be over a gigabyte. You keep it out with a `.gitignore` file.
 
-1. In GitHub Desktop, create a new repository named **`gameDev`**.
+1. If you don't already have one, use GitHub Desktop to create a repository named **`gameDev`**. (If you did the Godot tutorial already, use the same `gameDev` repo.)
 2. In Unity Hub, create your new project **inside** that `gameDev` folder. Name the project **`FlappyBird_Lastname`** (your last name).
-3. In the `gameDev` folder (not inside the Unity project), create a file named `.gitignore` and paste this in:
+3. In the `gameDev` folder (not inside the Unity project), make sure there is a file named `.gitignore` with this in it. If the file is already there from Godot, just add the Unity lines.
 
 ```
+# Godot files that should not go to GitHub
+.godot/
+
 # Unity files that should not go to GitHub
 [Ll]ibrary/
 [Tt]emp/
