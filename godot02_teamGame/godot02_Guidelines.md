@@ -35,6 +35,7 @@ When you're done, someone who played the tutorial game should look at yours and 
 - **2D game in Godot.** It can be a **platformer** (like the tutorial) or a top-down **RPG**.
 - **At least 3 sprites made by your team in Piskel.** You can make more, but watch your time. For everything else, you can use free sprites you find online.
 - **Sound is not required to be made by you.** Reuse the Brackeys sounds or find free ones online.
+- **One level or map is required.** A second level counts as a feature.
 - **5 lab days** to build it. They will be spread out, not all in one week.
 - **Push at the end of every lab day.**
 
@@ -126,7 +127,7 @@ Every team must do all of these:
 - [ ] **New name and theme.** Pick your own idea: a robot in a factory, a frog in a swamp, an astronaut on a moon.
 - [ ] **At least 3 sprites made in Piskel** by your team.
 - [ ] **Sound in the game.** Brackeys sounds or ones you found.
-- [ ] **Your own level or map.** Don't just repaint the tutorial level with new tiles.
+- [ ] **One level or map of your own.** It should take about 2 to 3 minutes to play through. Don't just repaint the tutorial level with new tiles. Want more levels? A second level counts as a Harder feature.
 - [ ] **New text.** Change the signs and score message to fit your game.
 
 ---

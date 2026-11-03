@@ -81,7 +81,7 @@ Put an `x` in each box when it's done and pushed. Example: `- [x]`
 - [ ] New name and theme
 - [ ] At least 3 sprites made in Piskel
 - [ ] Sound in the game (Brackeys or found)
-- [ ] Our own level or map
+- [ ] One level or map of our own (about 2 to 3 minutes to play through)
 - [ ] New signs and score text
 
 ---
