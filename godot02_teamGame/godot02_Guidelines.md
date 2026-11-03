@@ -14,6 +14,7 @@
 - [Set up your team repo](#set-up-your-team-repo)
 - [Working on the same project](#working-on-the-same-project)
 - [Required changes](#required-changes)
+- [Tutorial parts your game must use](#tutorial-parts-your-game-must-use)
 - [Pick at least 3 features](#pick-at-least-3-features)
 - [If you pick an RPG](#if-you-pick-an-rpg)
 - [Making your art in Piskel](#making-your-art-in-piskel)
@@ -35,6 +36,8 @@ When you're done, someone who played the tutorial game should look at yours and 
 - **2D game in Godot.** It can be a **platformer** (like the tutorial) or a top-down **RPG**.
 - **At least 3 sprites made by your team in Piskel.** You can make more, but watch your time. For everything else, you can use free sprites you find online.
 - **Sound is not required to be made by you.** Reuse the Brackeys sounds or find free ones online.
+- **Use the tutorial parts.** Your game must include the parts from the Brackeys video listed below.
+- **Add at least 3 new features** that you research and figure out yourself.
 - **One level or map is required.** A second level counts as a feature.
 - **5 lab days** to build it. They will be spread out, not all in one week.
 - **Push at the end of every lab day.**
@@ -132,7 +135,32 @@ Every team must do all of these:
 
 ---
 
+## Tutorial parts your game must use
+
+Every game must include these parts from the Brackeys video, rebuilt with your own art and theme. Split them up so both partners build some.
+
+| # | Part | How the video did it |
+|---|---|---|
+| 1 | Player with idle, run, and jump animations that faces the way it moves | CharacterBody2D, AnimatedSprite2D, `flip_h` |
+| 2 | Your own controls | Project Settings → Input Map (move left, move right, jump) |
+| 3 | Camera that follows the player | Camera2D under the player, position smoothing, bottom limit |
+| 4 | Tile level with a background layer and solid ground | Two TileMapLayer nodes, physics layer on the solid tiles |
+| 5 | A moving platform | AnimatableBody2D with an AnimationPlayer |
+| 6 | Pickups the player collects | Area2D, `body_entered` signal, collision layer and mask |
+| 7 | A score shown on screen | GameManager (unique name) and a Label |
+| 8 | A killzone used for falling **and** for the enemy | Reusable killzone scene, Timer, slow motion, restart |
+| 9 | An enemy that moves back and forth between walls | RayCast2D left and right |
+| 10 | Signs with a pixel font | Label with a font override |
+| 11 | Music that keeps playing when the game restarts | AudioStreamPlayer saved as a scene and added as an Autoload |
+| 12 | A pickup sound | AudioStreamPlayer and AnimationPlayer on the pickup |
+
+**RPG teams:** skip jumping and the falling killzone. Use walk animations for up, down, left, and right. Make #5 a moving obstacle or hazard instead of a platform, and use the killzone for hazards and enemies.
+
+---
+
 ## Pick at least 3 features
+
+The tutorial parts above are what everyone builds. These features are things the video did **not** show you. You will need to look them up in the Godot docs, search online, or figure them out yourselves.
 
 Pick **at least 3** features. **At least 1 must be from the Harder list.** Write your picks in your game plan on planning day.
 

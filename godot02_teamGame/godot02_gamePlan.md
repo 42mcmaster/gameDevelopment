@@ -86,6 +86,27 @@ Put an `x` in each box when it's done and pushed. Example: `- [x]`
 
 ---
 
+## Tutorial Parts
+
+Every game must have these parts from the Brackeys video. See the Guidelines for hints. Write who builds each one, and mark it done when it's pushed.
+
+| # | Part | Who builds it | Done? |
+|---|---|---|---|
+| 1 | Player with idle, run, and jump animations | | |
+| 2 | Our own controls (Input Map) | | |
+| 3 | Camera that follows the player | | |
+| 4 | Tile level with a background layer | | |
+| 5 | Moving platform (RPG: moving obstacle) | | |
+| 6 | Pickups | | |
+| 7 | Score on screen (GameManager) | | |
+| 8 | Killzone for falling and the enemy | | |
+| 9 | Enemy that moves between walls | | |
+| 10 | Signs with a pixel font | | |
+| 11 | Music that keeps playing on restart | | |
+| 12 | Pickup sound | | |
+
+---
+
 ## Features
 
 Pick **at least 3** from the Guidelines. **At least 1 must be from the Harder list.** Write who is coding each one.
